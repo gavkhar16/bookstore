@@ -1,0 +1,115 @@
+.bookReview-section {
+  overflow: hidden;
+}
+
+/* Один слайд */
+.bookReview-slide {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 146px;
+  padding: 81px;
+  background: linear-gradient(78.43deg, #fbeeee -27.34%, #f7fffe 89.92%);
+}
+
+/* Обёртка картинки */
+.bookReview-imageWrapper {
+  border: 15px solid #ffffff;
+  box-shadow: 2px 6px 34px 4px #3f3f3f14;
+  width: 430px;
+  height: 610px;
+}
+
+.bookReview-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Контент книги */
+.bookReview-content {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 62px;
+}
+
+.bookReview-title {
+  font-size: 48px;
+  font-weight: 600;
+  color: #393280;
+  text-transform: capitalize;
+  margin: 0;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+  padding-top: 10px;
+}
+
+.bookReview-strip {
+  background: #ed553b;
+  width: 101px;
+  height: 1px;
+  margin-bottom: 11px;
+}
+
+.bookReview-author {
+  margin: 0;
+  font-size: 13px;
+  color: #888888;
+  margin-bottom: 30px;
+}
+
+.bookReview-heading {
+  font-size: 28px;
+  font-weight: 600;
+  color: #393280;
+  margin-bottom: 16px;
+}
+
+.bookReview-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: #7a7a7a;
+  margin-bottom: 35px;
+}
+
+.bookReview-price {
+  font-size: 20px;
+  font-weight: 800;
+  color: #ed553b;
+  margin-top: 8px;
+  margin-bottom: 70px;
+}
+
+.bookReview-buttonWrapper {
+  margin-top: 20px;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+  .bookReview-slide {
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+    padding: 60px 20px;
+  }
+
+  .bookReview-content {
+    align-items: center;
+    padding-top: 0;
+  }
+
+  .bookReview-imageWrapper {
+    width: 320px;
+    height: 450px;
+  }
+
+  .bookReview-title {
+    font-size: 36px;
+  }
+
+  .bookReview-heading {
+    font-size: 22px;
+  }
+}

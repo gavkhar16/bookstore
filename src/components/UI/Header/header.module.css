@@ -1,0 +1,44 @@
+.tel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #393280;
+  padding: 10px 20px;
+  padding: 20px 50px;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.icons {
+  display: flex;
+  gap: 42px;
+  cursor: pointer;
+}
+.navLink {
+  color: inherit;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #ed553b;
+  font-weight: bold;
+}
+
+.activeLink {
+  color: #ed553b !important;
+  font-weight: bold;
+  font-weight: bold;
+}
+
+.customNavbar {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0 20px; 
+}
