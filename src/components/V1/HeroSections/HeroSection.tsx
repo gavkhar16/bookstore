@@ -1,7 +1,7 @@
 "use client";
 import dynamic from "next/dynamic";
-import AppButton from "@/components/UI/AppButton";
 import styles from "./HeroSections.module.css";
+import AppButton from "@/components/UI/AppButton";
 
 const Slider = dynamic(() => import("react-slick"), { ssr: false });
 
@@ -25,7 +25,7 @@ export default function HeroSections() {
               feugiat amet, libero ipsum enim pharetra hac. Urna commodo, lacus
               ut magna velit eleifend. Amet, quis urna, a eu.
             </p>
-            <AppButton buttonText="Read more" />
+           <AppButton buttonText="Read more"/>
             
             <div className={styles.pagination}></div>
           </div>
