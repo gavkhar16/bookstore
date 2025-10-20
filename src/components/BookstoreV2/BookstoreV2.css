@@ -1,0 +1,140 @@
+.bookstore-v2 {
+  display: flex;
+  background: #fff;
+  width: 100%;
+  padding: 62px;
+  gap: 40px;
+}
+
+.filter-panel {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.price-range h4 {
+  color: #393280;
+  font-weight: 600;
+}
+
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #393280;
+}
+
+.price-inputs input {
+  width: 60px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-btn {
+  width: 100%;
+  height: 44px;
+  background: #393280;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.product-section {
+  flex: 1;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #393280;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 85px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 56px;
+}
+
+.product-card {
+  text-align: center;
+   padding: 15px;
+}
+
+.photo {
+  border: 1px solid #eae8df;
+  background: #ffffff;
+  box-shadow: 0px 4px 10px 0px #00000026;
+  width: 287px;
+  height: 385px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-left: 70px;
+  margin-bottom: 21px;
+}
+.photo img {
+  text-align: center;
+  width: 200px;
+  height: 291px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  color: #393280;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #888888;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.product-card span {
+  font-size: 22px;
+  color: #ED553B;
+  font-weight: bold;
+  
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 8px;
+}
+
+.pagination button {
+  background: none;
+  border: 1px solid #E5E3DA;
+  color: #888888;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+.pagination button.active {
+  background: #e74c3c;
+  color: #E5E3DA;
+}
+.pagination :nth-child(1),
+.pagination :nth-child(5) {
+  background: none;
+  border: 1px solid #ED553B;
+  color: #ED553B;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}

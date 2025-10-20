@@ -93,7 +93,7 @@ export default function StackBooksSlider() {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu
                 feugiat amet, libero ipsum enim pharetra hac.
               </span>
-              <Timer targetDate={new Date(2025, 9, 15, 11)} />
+              <Timer targetDate={new Date(2025, 10, 8, 14)} />
             </div>
             <div className="stackBooks-image">
               <img src="/pictures/StackBooks.png" alt="StackBooks" />
@@ -111,7 +111,7 @@ export default function StackBooksSlider() {
                 Pellentesque habitant morbi tristique senectus et netus et
                 malesuada fames ac turpis egestas.
               </span>
-              <Timer targetDate={new Date(2025, 10, 8, 14)} />
+              <Timer targetDate={new Date(2025, 10, 9, 20)} />
             </div>
             <div className="stackBooks-image">
               <img src="/pictures/StackBooks.png" alt="StackBooks 2" />
@@ -129,7 +129,7 @@ export default function StackBooksSlider() {
                 Curabitur non nulla sit amet nisl tempus convallis quis ac
                 lectus. Nulla quis lorem ut libero malesuada feugiat.
               </span>
-              <Timer targetDate={new Date(2025, 9, 10, 18)} />
+              <Timer targetDate={new Date(2025, 10, 10, 18)} />
             </div>
             <div className="stackBooks-image">
               <img src="/pictures/StackBooks.png" alt="StackBooks 3" />
