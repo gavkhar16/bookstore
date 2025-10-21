@@ -27,6 +27,7 @@ export default function BookstoreV2() {
           <p>Sort by: Alphabetically, A–Z</p>
           <p>Showing 1–12 of 26 results</p>
           <p>Show: 12</p>
+          <img src="/pictures/icons/Group.svg" alt="" />
         </div>
 
         <div className="products-grid">
@@ -66,7 +67,7 @@ export default function BookstoreV2() {
             <div className="photo">
               <img src="/BookstoreV2/Book5.png" alt="Book" />
             </div>
-            <h3>The Lady Beauty Scarlett</h3>
+            <h3>The Lady Beauty Scarlett</h3> 
             <p>Arthur Doyle</p>
             <span>$45.00</span>
           </div>
